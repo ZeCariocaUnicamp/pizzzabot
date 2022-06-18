@@ -1,0 +1,26 @@
+version: "3.1"
+
+intents:
+  - fazer_pedido
+  - informa_pedido
+  - confirma_itens
+  - confirmar
+  - informa_endereco
+  - informa_pagamento
+  - cumprimenta
+  - altera_pedido
+
+entities:
+  - itens
+
+slots:
+  concerts:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: itens
+
+session_config:
+  session_expiration_time: 60  # value in minutes
+  carry_over_slots_to_new_session: true
