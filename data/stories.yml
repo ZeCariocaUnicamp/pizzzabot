@@ -1,0 +1,41 @@
+stories:
+ - story: story_1
+   steps:
+   - intent: fazer_pedido
+   - action: utter_pergunta_pedido
+   - intent: informa_pedido
+   - action: utter_confirma_pedido
+   - intent: confirma_itens
+   - action: utter_informa_valor
+   - intent: confirmar
+   - action: utter_pergunta_endereco
+   - intent: informa_endereco
+   - action: utter_pergunta_pagamento
+   - intent: informa_pagamento
+   - action: utter_informa_tempo
+
+ - story: story_2
+   steps:
+   - intent: fazer_pedido
+   - action: utter_pergunta_pedido
+   - intent: informa_pedido
+   - action: utter_confirma_pedido
+   - intent: confirma_itens
+   - action: utter_informa_valor
+   - intent: informa_endereco
+   - action: utter_pergunta_pagamento
+   - intent: informa_pagamento
+   - action: utter_informa_tempo
+
+ - story: story_3
+   steps:
+   - intent: fazer_pedido
+   - action: utter_pergunta_pedido
+   - intent: informa_pedido
+   - action: utter_confirma_pedido
+   - intent: confirma_itens
+   - action: utter_informa_valor
+   - intent: informa_pagamento
+   - action: utter_pergunta_endereco
+   - intent: informa_endereco
+   - action: utter_informa_tempo

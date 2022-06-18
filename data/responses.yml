@@ -1,0 +1,699 @@
+responses:
+   utter_pergunta_pedido:
+       - text: |
+           Bom dia! Quais seriam os itens do pedido?
+       - text: |
+           Boa tarde, quais serão os itens do pedido?
+       - text: |
+           Certo, e quais seriam os itens do pedido?
+       - text: |
+           Quais são os itens do pedido? 
+       - text: |
+           pois não, qual seria o pedido ?
+       - text: |
+           boa tarde, pode me informar quais os itens do pedido?
+       - text: |
+           Olá boa tarde! Quais os itens do seu pedido?
+       - text: |
+           Qual seria o seu pedido?
+       - text: |
+           Boa noite, pode informar os itens, por favor?
+       - text: |
+           Boa tarde, quais os itens do seu pedido?
+       - text: |
+           Ok, quais sabores?
+       - text: |
+           Bom dia, quais os itens do pedido?
+       - text: |
+           Ok. Quais são os itens do seu pedido?
+       - text: |
+           Quais seriam os novos itens do pedido ?
+       - text: |
+           quais os itens do pedido?
+       - text: |
+           pode me falar quais pizzas você quer
+       - text: |
+           olá boa tarde, qual seria o seu pedido?
+       - text: |
+           sim pode, quais os itens você quer adicionar ?
+       - text: |
+           boa noite, me fala os itens do seu pedido.
+       - text: |
+           Olá, quais seriam os itens do pedido?
+       - text: |
+           Olá bom dia, qual seria o seu pedido?
+       - text: |
+           Ok, quais seriam os itens do pedido?
+       - text: |
+           pode fazer ? qual sabor gostaria ?
+       - text: |
+           legal, qual pizza vc quer ?
+       - text: |
+           Olá, quais os itens do pedido?
+       - text: |
+           claro, qual seria?
+       - text: |
+           Boa noite! Qual é o seu pedido?
+       - text: |
+           Qual é o seu pedido?
+       - text: |
+           Boa tarde ! Quais são os itens do pedido ?
+       - text: |
+           Boa dia, quais os itens do pedido?
+       - text: |
+           Tudo bem. Claro, quais os itens do pedido?
+       - text: |
+           Olá, quais são os itens do pedido?
+       - text: |
+           pois não, quais itens ?
+       - text: |
+           Sim! Qual sabor você quer?
+       - text: |
+           claro, o que gostaria de pedir?
+       - text: |
+           sim pode, quais itens você prefere adicionar?
+       - text: |
+           é claro que é. Me fala qual seu pedido mais especificamente.
+       - text: |
+           vamos lá. Qual saber você gostaria ?
+       - text: |
+           o que vai querer pedir amigo ?
+       - text: |
+           Olá, qual pizza você quer?
+       - text: |
+           Qual será o seu pedido?
+       - text: |
+           Olá, qual seria o seu pedido?
+       - text: |
+           Olá, boa tarde, quais os itens do pedido?
+       - text: |
+           olá, me fala o que vc quer pedir
+       - text: |
+           vamos, pode falar.
+       - text: |
+           Claro. Quais os itens do seu pedido?
+       - text: |
+           Tudo bem. Claro, quais os itens do pedido?
+   utter_confirma_pedido:
+       - text: |
+           pois não, só confirmando: {itens}
+       - text: |
+           Ok! Confirmando su pedido: {itens}, certinho?
+       - text: |
+           Ok. Confirmando: você deseja {itens}, correto?
+       - text: |
+           Ok. Confirmando, seu pedido é {itens}. Correto?
+       - text: |
+           algo mais, ou somente as {itens} ?
+       - text: |
+           confirmando: {itens}
+       - text: |
+           Vão ser sete Pizzas: {itens}, correto?
+       - text: |
+           Só confirmando, seu pedido é: {itens}
+       - text: |
+           confirmando então, os sabores serão os seguintes: {itens}
+       - text: |
+           Confirme os itens por favor: {itens}
+       - text: |
+           ótimo. só confirmando então: {itens}?
+       - text: |
+           {itens}, correto?
+       - text: |
+           Então confirmando o pedido, são {itens}. Correto?
+       - text: |
+           Confirmando seu pedid, são {itens}. Correto?
+       - text: |
+           {itens}. Posso confirmar?
+       - text: |
+           Ok. Confirmando o pedido: {itens};
+       - text: |
+           Opa! Desculpa! Confirmando: serão {itens}. Isso?
+       - text: |
+           Confirmando: {itens}. Correto?
+       - text: |
+           sim. deixa eu confirmar aqui: {itens}
+       - text: |
+           confirmando, os sabores serão os seguintes: {itens}
+       - text: |
+           Os itens do pedido são: {itens}.
+       - text: |
+           ok, os itens são {itens}
+       - text: |
+           claro que consigo. Então, vamos lá. Confirmando aqui novamente: {itens}
+       - text: |
+           Ok. Confirmando o pedido, é {itens}. Correto?
+       - text: |
+           só confirmando então: {itens}
+       - text: |
+           certo, os itens são {itens} 
+       - text: |
+           Confirmando o seu pedido serão {itens}, correto?
+       - text: |
+           {itens}, algo mais?
+       - text: |
+           Confirmando seu pedido. Seria {itens}. Certo?
+       - text: |
+           Confirmando: {itens}.
+       - text: |
+           certo. só confirmando então, seu pedido é: {itens}
+       - text: |
+           ótimo, então confirmando: {itens}
+       - text: |
+           certo. confirmando: {itens}
+       - text: |
+           Vão ser: {itens}?
+       - text: |
+           Oks! Confirmando: 
+       - text: |
+           ótimo, confirmando então: {itens}
+       - text: |
+           O seu pedido seria: {itens}, correto?
+       - text: |
+           Ok... vou confirmar! {itens} correto?
+       - text: |
+           certo, ótima escolha. Confirmo os seguintes itens {itens}.
+       - text: |
+            No caso, os item do pedido é {itens}
+       - text: |
+           Ok, confirmando os itens do pedido: {itens}
+       - text: |
+           então vamos lá... confirmando seu pedido: {itens}
+       - text: |
+           Confirmando ser pedido: {itens}. Correto?
+       - text: |
+           Confirmando o seu pedido: {itens}, correto?
+       - text: |
+           perfeito, então, vamos lá. Confirmando novamente: {itens}
+       - text: |
+           Confirmando o pedido: {itens}. Correto?
+       - text: |
+           ok, só confirmando: {itens}. é isso ?
+       - text: |
+           O seu pedido seria {itens}?
+       - text: |
+           tá certo, só confirmando o seu pedido então: {itens}.
+       - text: |
+           Confirme seu pedido por favor: {itens}
+       - text: |
+           {itens}. Posso confirmar?
+       - text: |
+           então só confirmando o seu pedido: {itens}
+       - text: |
+           Ok. Confirmando seu pedido: {itens}.
+       - text: |
+           Ok. Confirmando seu pedido. {itens}
+       - text: |
+           perfeito, então ficou: {itens}
+       - text: |
+           {itens}
+       - text: |
+           anotado. só confirmando: {itens}
+       - text: |
+           Confirmando seu pedido: {itens}. Correto?
+       - text: |
+           sem problemas. então ficou: {itens}
+       - text: |
+           Ok. Confirmando seu pedido: {itens}. Correto?
+       - text: |
+           Certo, então vou confirmar novamente: {itens}
+       - text: |
+           O seu pedido seria: {itens}, correto?
+       - text: |
+           Confirmando o seu pedido, são {itens}. Correto?
+       - text: |
+           ótimo, confirmando: {itens}
+       - text: |
+           ótimo. Então só confirmando o pedido: {itens}
+       - text: |
+           Confirmando o pedido: {itens}, correto?
+       - text: |
+           Confirmando seu pedido: {itens}. Correto?
+       - text: |
+           Confirmando os itens do pedido: {itens}
+       - text: |
+           Ótimo, confirmando: {itens}
+       - text: |
+           Confirmando o pedido, é {itens}. Certo?
+   utter_confirma_alteracao:
+       - text: |
+           pode me falar os novos itens
+       - text: |
+           Claro, o que seria?
+       - text: |
+           sem problemas, é só falar
+       - text: |
+           Pode sim. Fique à vontade para modificar o pedido.
+       - text: |
+           Pode. Fique à vontade para alterar o pedido.
+       - text: |
+           Quais seriam os novos itens do pedido ?
+       - text: |
+           pode sim, pode alterar o que desejar
+       - text: |
+           Podemos alterar, quais os sabores? 
+       - text: |
+           Fique à vontade para alterar.
+       - text: |
+           claro, e qual é a alteração ?
+       - text: |
+           Sim, fique a vontade para adicionar itens
+       - text: |
+           Pode sim. Qual alteração deseja?
+       - text: |
+           Fique à vontade para realizar a alteração.
+       - text: |
+           Claro! 
+       - text: |
+           claro, você pode adicionar ou alterar o que desejar
+       - text: |
+           Qual é o item que gostaria de adicionar ?
+       - text: |
+           Pode alterar o pedido à vontade.
+       - text: |
+           Claro, qual seria a alteração?
+       - text: |
+           pode me falar
+       - text: |
+           O que quer adicionar?
+       - text: |
+           pode adicionar sim
+       - text: |
+           Ok. Como desejo o pedido então?
+       - text: |
+           Pode alterar sim.
+       - text: |
+           sim, podes falar
+       - text: |
+           Pode sim, o que gostaria de adicionar?
+   utter_informa_valor:
+       - text: |
+           O pedido irá ficar em {valor}.
+       - text: |
+           O total ficou: {valor}
+       - text: |
+           você irá pagar: {valor}
+       - text: |
+           O valor total desse pedido é de {valor}.
+       - text: |
+           O valor total é de {valor}.
+       - text: |
+           O valor do pedido ficou em {valor}.
+       - text: |
+           o total a pagar é de: {valor}
+       - text: |
+           fica em {valor}
+       - text: |
+           Ok. O valor total é {valor}.
+       - text: |
+           Informe o total: {valor}
+       - text: |
+           O valor do seu pedido ficou {valor}
+       - text: |
+           Ok. O valor total do pedido é de {valor}.
+       - text: |
+           O valor total do seu pedido é de {valor}.
+       - text: |
+           O valor total do pedido é de {valor}.
+       - text: |
+           Vamos tentar ser o mais rápidos possível. O valor total é de {valor}.
+       - text: |
+           O pedido ficará em {valor}.
+       - text: |
+           Ok, o valor do pedido é {valor}
+       - text: |
+           deu {valor}
+       - text: |
+           O total ficou: {valor}
+       - text: |
+           O valor total ficou em {valor}
+       - text: |
+           seu pedido vai ficar em {valor}
+       - text: |
+           Valor Total: {valor}
+       - text: |
+           O valor do total do pedido é {valor}
+       - text: |
+           Agora o total é de {valor}, deseja algo mais?
+       - text: |
+           O valor total do pedido ficou em: {valor}
+       - text: |
+           O valor total do seu pedido é {valor}
+       - text: |
+           O seu pedido ficou no total de: {valor}
+       - text: |
+           o valor total é de {valor}
+       - text: |
+           fica no valor {valor}
+       - text: |
+           ok, O valor total para o seu pedido é {valor}
+       - text: |
+           O valor total do pedido é de {valor}
+       - text: |
+           O valor ficou em {valor}
+       - text: |
+           bem, ficou em {valor}
+       - text: |
+           O valor total ficou em: {valor}
+       - text: |
+           O total do pedido fica {valor}
+       - text: |
+           O total é: {valor}
+       - text: |
+           Ok. O valor total do pedido dá {valor}.
+       - text: |
+           O valor total do seu pedido foi  {valor}
+       - text: |
+           ok, o valor total do seu pedido é total: {valor}
+       - text: |
+           Ok! O preço total é {valor}.
+       - text: |
+           o pedido total ficou em {valor}
+       - text: |
+           ficou {valor}
+       - text: |
+           O total deu {valor}
+       - text: |
+           O total do seu pedido é: {valor}
+       - text: |
+           O valor total do pedido é {valor}
+       - text: |
+           o valor a pagar é o total de {valor}
+       - text: |
+           o total do seu pedido está em: {valor}
+   utter_pergunta_pagamento:
+       - text: |
+           Ok. E qual será a forma de pagamento utilizada?
+       - text: |
+           sim e como pretente pagar ?
+       - text: |
+           Qual a forma de pagamento que deseja utilizar?
+       - text: |
+           Ok, anotado e qual será a forma de pagamento?
+       - text: |
+           Ok. Qual a forma de pagamento?
+       - text: |
+           Ok. Como você prefere fazer o pagamento?
+       - text: |
+           E qual a forma de pagamento?
+       - text: |
+           como vai pagar?
+       - text: |
+           Tudo bem. E qual a forma de pagamento?
+       - text: |
+           ótimo e qual vai ser a forma de pagamento ?
+       - text: |
+           Anotado, qual vai ser a forma de pagamento ?
+       - text: |
+           ok! Qual a forma de pagamento?
+       - text: |
+           claro. qual vai ser a forma de pagamento ?
+       - text: |
+           Qual a Forma de pagamento?
+       - text: |
+           entregamos sim. e qual vai ser a forma de pagamento ?
+       - text: |
+           ótimo e qual a forma de pagamento ?
+       - text: |
+           e o método de pagamento
+       - text: |
+           Ok. E qual a forma de pagamento?
+       - text: |
+           Anotado, qual vai ser a forma de pagamento?
+       - text: |
+           Qual a forma de pagamento escolhida?
+       - text: |
+           Qual é a forma de pagamento?
+       - text: |
+           ok, agora me diz qual a forma de pagamento? 
+       - text: |
+           Qual a forma de pagamento?
+       - text: |
+           E qual seria a forma de pagamento?
+       - text: |
+           anotado. e qual será a forma de pagamento ?
+       - text: |
+           Ok, e qual seria a forma de pagamento ?
+       - text: |
+           E qual será a forma de pagamento?
+       - text: |
+           excelente e qual vai ser a forma de pagamento ?
+       - text: |
+           ótimo e qual será a forma de pagamento ?
+       - text: |
+           ótimo, e qual a forma de pagamento você quer ?
+       - text: |
+           E qual é a forma de pagamento?
+       - text: |
+           perfeito e qual vai ser a forma de pagamento senhor ?
+       - text: |
+           e qual será a forma de pagamento
+       - text: |
+           OK. Qual a forma de pagamento?
+       - text: |
+           ok. e qual vai ser a forma de pagamento ?
+       - text: |
+           Certo, e qual a forma de pagamento?
+       - text: |
+           Ok, qual a forma de pagamento?
+       - text: |
+           Ok, qual será a forma de pagamento?
+       - text: |
+           Ok, anotado e qual será a forma de pagamento?
+   utter_informa_pix:
+       - text: |
+           OK! Segue a chave {chave_pix} para PIX
+       - text: |
+           A nossa chave PIX é o {chave_pix}.
+       - text: |
+           ok, tá aqui a nossa chave {chave_pix}
+       - text: |
+           Nossa chave PIX é a {chave_pix}
+       - text: |
+           Nosso pix é a {chave_pix}
+       - text: |
+           Ok. Nossa chave é {chave_pix}
+       - text: |
+           Segue a nossa a chave {chave_pix} para pagamentos via PIX
+       - text: |
+           sim, a chave é o {chave_pix} 
+       - text: |
+           A nossa chave PIX é a {chave_pix}
+       - text: |
+           Nossa chave PIX é o {chave_pix}
+       - text: |
+           Nossa chave é o número de {chave_pix}
+       - text: |
+           sim, é só fazer pix pra essa chave aqui: {chave_pix}
+       - text: |
+           A chave é: {chave_pix}
+       - text: |
+           Nossa chave PIX é {chave_pix}.
+       - text: |
+           Chave PIX é o {chave_pix}
+       - text: |
+           ótimo, o código para pagamento é uma {chave_pix}
+       - text: |
+           Nossa chave pix é o {chave_pix} 
+       - text: |
+           Sim nós aceitamos, a chave é o {chave_pix} para pagamentos via PIX
+       - text: |
+           sem problemas, vou te passar a {chave_pix}
+       - text: |
+           tá bom o número é uma {chave_pix} 
+   utter_informa_tempo:
+       - text: |
+           muito bem. seu pedido foi confirmado e pode levar até {tempo} pra ficar pronto
+       - text: |
+           Pagamento confirmado. O seu pedido está sendo preparado e será entregue em {tempo}.
+       - text: |
+           Ok. Seu pedido será preparado e entregue em {tempo}. Obrigado pela preferência!
+       - text: |
+           Confirmado! O pedido está sendo preparado e sai para a entrega em {tempo} :)
+       - text: |
+           Recebido, o pedido já está em produção e a entrega será realizada em aproximadamente {tempo}
+       - text: |
+           seu pedido foi confirmado e pode levar até {tempo}
+       - text: |
+           Beleza! Pedido confirmado e já está sendo preparado. Vai demorar cerca de {tempo}.
+       - text: |
+           Certo! O pedido está confirmado e já está sendo preparado. Vai demorar {tempo}
+       - text: |
+           Pix recebido com sucesso ! Seu pedido está sendo preparado e vai demorar {tempo}. Obrigada pela preferencia !
+       - text: |
+           tá, seu pedido foi confirmado, pode demorar até {tempo} até chegar aí.
+       - text: |
+           Confirmo o seu pedido, o mesmo está sendo preparado e vai demorar {tempo}
+       - text: |
+           Seu pedido foi confirmado vai levar umas {tempo}
+       - text: |
+           Pagamento recebido. O seu pedido será preparado e entregue em {tempo}. Muito obrigada pela preferência.
+       - text: |
+           Ok. O seu pedido será preparado e entregue em {tempo}. Obrigada!
+       - text: |
+           PIX recebido com sucessoi. O pedido já está sendo preparado e ficará pronto em {tempo}. Muito obrigada.
+       - text: |
+           Perfeito. Seu pedido será preparado e ficará pronto em {tempo}. Obrigada pela preferência!
+       - text: |
+           tudo bem então. seu pedido já foi confirmado e vai levar uns {tempo} para ficar pronto
+       - text: |
+           Agradecemos o seu pedido, o tempo estimado para a entrega é de aproximadamente {tempo}.
+       - text: |
+           chegou sim, seu pedido está confirmado e vai levar até {tempo} pra chegar até sua casa.
+       - text: |
+           ótimo! seu pedido ja está em preparo e vai levar {tempo} para chegar ae. Posso te ajudar em algo mais?
+       - text: |
+           Pedido confirmado ! Está sendo preparado e vai demorar {tempo}, obrigada pela preferência !
+       - text: |
+           ok. PEdido está sendo preparado e que vai demorar {tempo}
+       - text: |
+           pedido confirmado. Ele já esta sendo preparado e vai levar {tempo}
+       - text: |
+           Perfeito, o pedido esta sendo preparado e ficará pronto em {tempo}
+       - text: |
+           ok, muito obrigado. Pedido confirmado e já está sendo preparado e que vai demorar {tempo}
+       - text: |
+           Pedido confirmado. Seu pedido está sendo preparado e ficará pronto em {tempo}. Muito obrigado.
+       - text: |
+           Ok, combinado! O pedido já será preparado e deve chegar em {tempo} até você. Muito obrigado!
+       - text: |
+           Pedido Confirmado e já está sendo preparado. Será entregue em {tempo}.
+       - text: |
+           Ok então. Seu pedido será preparado e ficará pronto em {tempo}. Obrigada pela preferência!
+       - text: |
+           Ok, pagamento realizado, o pedido já está sendo feito, tempo para entrega de aproximadamente {tempo}
+       - text: |
+           Confirmado! O pedido está sendo preparado e sai para a entrega em {tempo} :)
+       - text: |
+           Pedido confirmado, ele está sendo preparado e deve demorar {tempo}
+       - text: |
+           Pedido confirmado ! Está sendo preparado e vai demorar {tempo}, obrigada pela preferência !
+       - text: |
+           ótimo, seu pedido já está sendo preparado e vai demorar {tempo}
+       - text: |
+           Pedido confirmado. Ele está sendo preparado e ficará pronto em {tempo}.
+       - text: |
+           O pedido foi confirmado e está sendo preparado, ficará pronto em {tempo}.
+       - text: |
+           Ok então, pedido realizado. O pedido será preparado e entregue em {tempo}. Obrigado pela preferência.
+       - text: |
+           O seu pagamento foi recebido. Seu pedido será preparado e ficará pronto em {tempo}. Obrigada pela preferência!
+       - text: |
+           Perfeito, agradecemos o seu peddido, ele já está em produção o tempo para entrega está em aproximadamente {tempo}
+       - text: |
+           Agradecemos o seu pedido, tempo estimado para entrega é de {tempo}!
+       - text: |
+           Pagamento confirmado. Seu pedido será preparado e entregue em {tempo}. Muito obrigada!
+   utter_como_ajudar:
+       - text: |
+           bom dia. Como eu posso estar ajudando ?
+       - text: |
+           Olá, como posso ajudar?
+       - text: |
+           Olá bom dia, como posso te ajudar?
+       - text: |
+           Boa tarde! Como posso te ajudar?
+       - text: |
+           boa noite. Como eu posso ajudar você hoje ?
+       - text: |
+           Oi, como posso te ajudar?
+       - text: |
+           olá, como posso te ajudar?
+       - text: |
+           Como posso te ajudar?
+       - text: |
+           olá, boa noite. Como eu posso te ajudar ?
+       - text: |
+           boa noite, é claro que pode. Como posso te ajudar hoje ?
+       - text: |
+           Sim, tudo blza. No que posso te ajudar ?
+       - text: |
+           olá, como te ajudo ?
+       - text: |
+           Boa tarde, como posso te ajudar?
+       - text: |
+           Boa tarde, como posso ajudar?
+       - text: |
+           Bom dia, tudo bem sim, como podemos te ajudar?
+       - text: |
+           oi, boa noite. Em que posso ajudar você ?
+       - text: |
+           olá. Posso te ajudar com alguma coisa ?
+       - text: |
+           olá, de qual forma eu posso te ajudar ?
+   utter_pergunta_endereco:
+       - text: |
+           Poderia antes passar seu endereço, por favor ?
+       - text: |
+           E qual o endereço de entrega?
+       - text: |
+           onde vai ser a entrega ?
+       - text: |
+           Qual é o endereço?
+       - text: |
+           Qual o endereço de entrega?
+       - text: |
+           Qual endereço da entrega?
+       - text: |
+           qual o seu endereço para entrega?
+       - text: |
+           Pode me informar o endereço de entrega, por favor?
+       - text: |
+           Tudo bem. E qual é o endereço de entrega?
+       - text: |
+           Qual o endereço por favor?
+       - text: |
+           Qual o endereço de entrega, por favor?
+       - text: |
+           e qual vai ser o endereço pra entrega ?
+       - text: |
+           Endereço para entrega do pedido?
+       - text: |
+           Qual o endereço para entrega?
+       - text: |
+           qual vai ser o endereço de entrega ?
+       - text: |
+           e qual vai ser o endereço de entrega ?
+       - text: |
+           Qual é o endereço para entrega deste pedido?
+       - text: |
+           qual o endereço de entrega?
+   utter_pergunta_precisa_troco:
+       - text: |
+           Precisa de troco?
+       - text: |
+           precisa de troco?
+       - text: |
+           certo, você precisa de troco?
+       - text: |
+           vai precisar de troco ?
+       - text: |
+           Será necessário troco?
+   utter_agradecimento:
+       - text: |
+           Obrigada você! 
+       - text: |
+           Até mais
+       - text: |
+           eu que agradeço
+       - text: |
+           eu que agradeço! volte sempre!
+   utter_resposta_sabor:
+       - text: |
+           Bom dia. Os sabores são {itens}
+       - text: |
+           Boa Tarde! {itens}
+       - text: |
+           Boa noite, temos disponíveis os sabores {itens}. Qual seria o seu pedido?
+       - text: |
+           boa noite. aqui temos: {itens}
+       - text: |
+           boa noite! hoje temos: {itens}
+       - text: |
+           Boa noite, temos disponíveis os sabores {itens}. Qual seria o seu pedido?
+       - text: |
+           Boa Tarde! {itens}
+       - text: |
+           {itens}
+       - text: |
+           Os sabores disponíveis são: {itens}

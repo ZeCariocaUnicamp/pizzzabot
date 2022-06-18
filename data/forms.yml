@@ -1,0 +1,63 @@
+entities:
+- itens
+- valor
+- endereco
+- via_pagamento
+- chave_pix
+- tempo
+slots:
+  itens:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: itens
+  valor:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: valor
+  endereco:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: endereco
+  via_pagamento:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: via_pagamento
+  chave_pix:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: chave_pix
+  tempo:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: tempo
+forms:
+  informa_pedido:
+    required_slots:
+        - itens
+  resposta_sabor:
+    required_slots:
+        - itens
+  confirma_pedido:
+    required_slots:
+        - itens
+  informa_endereco:
+    required_slots:
+        - endereco
+  informa_pagamento:
+    required_slots:
+        - via_pagamento
+  informa_valor:
+    required_slots:
+        - valor
+  informa_troco:
+    required_slots:
+        - valor
+  informa_tempo:
+    required_slots:
+        - tempo
