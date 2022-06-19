@@ -1,3 +1,4 @@
+version: "3.1"
 responses:
    utter_pergunta_pedido:
        - text: |
@@ -680,20 +681,20 @@ responses:
            eu que agradeço! volte sempre!
    utter_resposta_sabor:
        - text: |
-           Bom dia. Os sabores são {itens}
+           Bom dia. Os sabores são calabresa, peperoni, mussarela e frango
        - text: |
-           Boa Tarde! {itens}
+           Boa Tarde! calabresa, peperoni, mussarela e frango
        - text: |
-           Boa noite, temos disponíveis os sabores {itens}. Qual seria o seu pedido?
+           Boa noite, temos disponíveis os sabores calabresa, peperoni, mussarela e frango. Qual seria o seu pedido?
        - text: |
-           boa noite. aqui temos: {itens}
+           boa noite. aqui temos: calabresa, peperoni, mussarela e frango
        - text: |
-           boa noite! hoje temos: {itens}
+           boa noite! hoje temos: calabresa, peperoni, mussarela e frango
        - text: |
-           Boa noite, temos disponíveis os sabores {itens}. Qual seria o seu pedido?
+           Boa noite, temos disponíveis os sabores calabresa, peperoni, mussarela e frango. Qual seria o seu pedido?
        - text: |
-           Boa Tarde! {itens}
+           Boa Tarde! calabresa, peperoni, mussarela e frango
        - text: |
-           {itens}
+           calabresa, peperoni, mussarela e frango
        - text: |
-           Os sabores disponíveis são: {itens}
+           Os sabores disponíveis são: calabresa, peperoni, mussarela e frango

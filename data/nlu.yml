@@ -53,71 +53,71 @@ nlu:
 
 - intent: informa_pedido
   examples: |
-    - então me vê: {itens}
-    - Adiciona também {itens}
-    - Meu pedido vai ser {itens}.
-    - na verdade... adicione mais {itens}
-    - eu quero pizzas, {itens}
-    - você consegue adicionar {itens}
-    - Então por favor veja pra gente: {itens}
-    - Ótimo, eu quero {itens}
-    - meu pedido é: {itens}
-    - quero adicionar{itens}
-    - Meia Americana e {itens}
-    - Gostaria de {itens}
-    - Ok. O meu pedido vai ser {itens}.
-    - Vou querer {itens}
-    - eu quero {itens}
-    - O pedido é de {itens}.
-    - {itens}, por favor.
-    - {itens}
-    - quero adicionar mais {itens}
-    - Os itens do meu pedido serão {itens}
-    - Eu vou querer {itens}.
-    - Eu quero {itens}
-    - eu quero então {itens}
-    - Gostaria de {itens}
-    - hoje eu quero {itens}
-    - Eu quero {itens}.
-    - bem, eu quero: {itens}
-    - São {itens}.
-    - Me vê uma de {itens} também que hoje ninguém vai ficar sem pizza aqui em casa 
-    - quero {itens}
-    - nós queremos: {itens}
-    - Vou querer é {itens}.
-    - Ok. Os itens são {itens}.
-    - Meu pedido será {itens}.
-    - Eu desejo {itens}
-    - Gostaria de pedir o seguinte: {itens}
-    - Vai ser {itens}
-    - Pode ser: {itens}
-    - Eu gostaria de {itens}.
-    - Hoje eu quero uma {itens}
-    - você pode incluir mais: {itens}
-    - pode me ver {itens}
-    - pra gente é só uma pizza de {itens}
-    - Os itens do meu pedido são {itens}
-    - O pedido seria: {itens}
-    - eu quero alterar para {itens}
-    - Isso! Acho que vou querer também {itens}
-    - Vou querer: {itens}
-    - me vê {itens}
-    - A minha pizza eu quero {itens}
-    - vou mudar o pedido, anota aí: {itens}
-    - quero {itens}
-    - O meu pedido é o seguinte: {itens}.
-    - quero {itens}
-    - quero adicionar  {itens}
-    - pois não. {itens}
-    - adicione mais {itens}
-    - O pedido são {itens}.
-    - Serão 5 Pizzas: {itens}
-    - A minha pizza será {itens}
-    - {itens}
-    - Quero {itens}
-    - Meu pedido é {itens}.
-    - É {itens}.
-    - Quero {itens}
+    - então me vê: [itens](muçarela)
+    - Adiciona também [itens](peperoni)
+    - Meu pedido vai ser [itens](calabresa).
+    - na verdade... adicione mais [itens](peperoni)
+    - eu quero pizzas, [itens](muçarela)
+    - você consegue adicionar [itens](frango com catupiry)
+    - Então por favor veja pra gente: [itens](peperoni)
+    - Ótimo, eu quero [itens](portuguesa)
+    - meu pedido é: [itens](frango com catupiry)
+    - quero adicionar [itens](marguerita)
+    - Meia Americana e [itens](frango com catupiry)
+    - Gostaria de [itens](quatro queijos)
+    - Ok. O meu pedido vai ser [itens](quatro queijos).
+    - Vou querer [itens](muçarela)
+    - eu quero [itens](quatro queijos)
+    - O pedido é de [itens](frango com catupiry).
+    - [itens](calabresa), por favor.
+    - [itens](muçarela)
+    - quero adicionar mais [itens](calabresa)
+    - Os itens do meu pedido serão [itens](peperoni)
+    - Eu vou querer [itens](portuguesa).
+    - Eu quero [itens](frango com catupiry)
+    - eu quero então [itens](calabresa)
+    - Gostaria de [itens](muçarela)
+    - hoje eu quero [itens](portuguesa)
+    - Eu quero [itens](muçarela).
+    - bem, eu quero: [itens](peperoni)
+    - São [itens](frango com catupiry).
+    - Me vê uma de [itens](muçarela) também que hoje ninguém vai ficar sem pizza aqui em casa 
+    - quero [itens](quatro queijos)
+    - nós queremos: [itens](marguerita)
+    - Vou querer é [itens](portuguesa).
+    - Ok. Os itens são [itens](marguerita).
+    - Meu pedido será [itens](frango com catupiry).
+    - Eu desejo [itens](peperoni)
+    - Gostaria de pedir o seguinte: [itens](calabresa)
+    - Vai ser [itens](quatro queijos)
+    - Pode ser: [itens](portuguesa)
+    - Eu gostaria de [itens](quatro queijos).
+    - Hoje eu quero uma [itens](quatro queijos)
+    - você pode incluir mais: [itens](frango com catupiry)
+    - pode me ver [itens](peperoni)
+    - pra gente é só uma pizza de [itens](peperoni)
+    - Os itens do meu pedido são [itens](marguerita)
+    - O pedido seria: [itens](portuguesa)
+    - eu quero alterar para [itens](muçarela)
+    - Isso! Acho que vou querer também [itens](marguerita)
+    - Vou querer: [itens](peperoni)
+    - me vê [itens](marguerita)
+    - A minha pizza eu quero [itens](marguerita)
+    - vou mudar o pedido, anota aí: [itens](calabresa)
+    - quero [itens](marguerita)
+    - O meu pedido é o seguinte: [itens](muçarela).
+    - quero [itens](marguerita)
+    - quero adicionar  [itens](quatro queijos)
+    - pois não. [itens](frango com catupiry)
+    - adicione mais [itens](peperoni)
+    - O pedido são [itens](peperoni).
+    - Serão 5 Pizzas: [itens](frango com catupiry)
+    - A minha pizza será [itens](marguerita)
+    - [itens](portuguesa)
+    - Quero [itens](marguerita)
+    - Meu pedido é [itens](peperoni).
+    - É [itens](calabresa).
+    - Quero [itens](calabresa)
 
 - intent: altera_pedido
   examples: |

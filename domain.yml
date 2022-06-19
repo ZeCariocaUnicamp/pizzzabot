@@ -9,6 +9,7 @@ intents:
   - informa_pagamento
   - cumprimenta
   - altera_pedido
+  - pergunta_sabor
 
 entities:
   - itens
