@@ -15,7 +15,7 @@ entities:
   - itens
 
 slots:
-  concerts:
+  itens:
     type: text
     influence_conversation: false
     mappings:
