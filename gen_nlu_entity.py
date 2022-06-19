@@ -13,7 +13,7 @@ def main():
         data = fin.read()
     data = yaml.load(data)
     pedidos = data["nlu"][1]["examples"].split("\n")
-    proc = [reply.replace("{itens}", f"[itens]({genp()})") for reply in pedidos]
+    proc = [reply.replace("{itens}", f"[{genp()}](itens)") for reply in pedidos]
     data["nlu"][1]["examples"] = "\n".join(proc)
     with open("data/nlu.yml", "w") as fout:
         yaml.dump(data, fout)
