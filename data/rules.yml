@@ -1,17 +1,1 @@
 version: "3.1"
-
-rules:
- - rule: alteracao loop
-   steps:
-   - intent: altera_pedido
-   - action: utter_confirma_alteracao
-
- - rule: cumprimenta cliente
-   steps:
-   - intent: cumprimenta
-   - action: utter_como_ajudar
-
- - rule: sabor pizza
-   steps:
-   - intent: pergunta_sabor
-   - action: utter_resposta_sabor

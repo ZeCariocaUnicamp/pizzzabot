@@ -3,13 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Rasa
+results/
+models/
+.rasa/
+
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-.rasa/
-models/
 build/
 develop-eggs/
 dist/

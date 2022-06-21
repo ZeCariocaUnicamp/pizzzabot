@@ -3,16 +3,18 @@ version: "3.1"
 intents:
   - fazer_pedido
   - informa_pedido
-  - confirma_itens
   - confirmar
+  - sem_troco
+  - informa_troco
   - informa_endereco
   - informa_pagamento
   - cumprimenta
-  - altera_pedido
   - pergunta_sabor
 
 entities:
   - itens
+  - via_pagamento
+  - endereco
 
 slots:
   itens:
@@ -21,6 +23,22 @@ slots:
     mappings:
     - type: from_entity
       entity: itens
+  endereco:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: endereco
+  via_pagamento:
+    type: categorical
+    values:
+      - pix
+      - cartao
+      - dinheiro
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: via_pagamento
 
 session_config:
   session_expiration_time: 60  # value in minutes

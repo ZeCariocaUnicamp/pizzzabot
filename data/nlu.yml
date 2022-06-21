@@ -3,7 +3,6 @@ version: "3.1"
 nlu:
 - intent: fazer_pedido
   examples: |
-    - Olá, boa noite, gostaria de saber quais os sabores disponíveis.
     - Boa noite, quero fazer um pedido de pizza.
     - você tem pizza tamanho familia?
     - bom dia, quero fazer um pedido
@@ -119,43 +118,166 @@ nlu:
     - É [calabresa](itens).
     - Quero [muçarela](itens)
 
-- intent: altera_pedido
-  examples: |
-    - posso adicionar mais um item?
-    - Eu desejo alterar o meu pedido.
-    - Ah, lembrei de outra coisa, posso adicionar mais um item?
-    - é isso mesmo. Mas já quero fazer uma alteração, tem como ?
-    - Posso adicionar mais um item? 
-    - Eu posso alterar o pedido?
-    - certo, mas eu posso adicionar mais coisa ? desculpa
-    - Na verdade quero alterar o pedido novamente.
-    - é isso, mas eu gostaria de adicionar mais um item
-    - Eu poderia adicionar mais itens?
-    - esqueci um item, pode adicionar mais um?
-    - quero fazer uma alteração no pedido adicionando mais um item
-    - Ah, e você poderia adicionar mais uma pra mim? 
-    - Posso alterar meu pedido?
-    - na verdade quero alterar o pedido de novo!
-    - hummmm quero adicionar mais um item
-    - Posso adicionar mais 1 pizza?
-    - Eu ainda posso adicionar mais um item?
-    - Olha, eu posso adicionar mais um item ?
-    - na verdade, quero fazer uma alteração
-    - Posso adicionar mais um item?
-    - Posso adicionar mais alguma coisa? Quero alterar o pedido.
-    - quero alterar os sabores das pizzas
-    - posso fazer uma alteração ?
-    - ótimo, vou alterar então
-    - ha, quero adicionar mais:
-    - Na verdade gostaria de alterar o pedido
-    - Isso mesmo. Posso adicionar mais itens?
-    - Isso, exatamente. Eu posso adicionar um item?
-    - Eu posso adicionar um item a mais no pedido ?
-    - Quero alterar meu pedido
-    - Eu queria alterar o pedido novamente.
+# - intent: altera_pedido
+#   examples: |
+#     - posso adicionar mais um item?
+#     - Eu desejo alterar o meu pedido.
+#     - Ah, lembrei de outra coisa, posso adicionar mais um item?
+#     - é isso mesmo. Mas já quero fazer uma alteração, tem como ?
+#     - Posso adicionar mais um item? 
+#     - Eu posso alterar o pedido?
+#     - certo, mas eu posso adicionar mais coisa ? desculpa
+#     - Na verdade quero alterar o pedido novamente.
+#     - é isso, mas eu gostaria de adicionar mais um item
+#     - Eu poderia adicionar mais itens?
+#     - esqueci um item, pode adicionar mais um?
+#     - quero fazer uma alteração no pedido adicionando mais um item
+#     - Ah, e você poderia adicionar mais uma pra mim? 
+#     - Posso alterar meu pedido?
+#     - na verdade quero alterar o pedido de novo!
+#     - hummmm quero adicionar mais um item
+#     - Posso adicionar mais 1 pizza?
+#     - Eu ainda posso adicionar mais um item?
+#     - Olha, eu posso adicionar mais um item ?
+#     - na verdade, quero fazer uma alteração
+#     - Posso adicionar mais um item?
+#     - Posso adicionar mais alguma coisa? Quero alterar o pedido.
+#     - quero alterar os sabores das pizzas
+#     - posso fazer uma alteração ?
+#     - ótimo, vou alterar então
+#     - ha, quero adicionar mais:
+#     - Na verdade gostaria de alterar o pedido
+#     - Isso mesmo. Posso adicionar mais itens?
+#     - Isso, exatamente. Eu posso adicionar um item?
+#     - Eu posso adicionar um item a mais no pedido ?
+#     - Quero alterar meu pedido
+#     - Eu queria alterar o pedido novamente.
 
-- intent: confirma_itens
+- intent: informa_endereco
   examples: |
+    - Perfeito. Meu endereço é [Vila São João da Boa Vista Número 598](endereco)
+    - A entrega é pra ser feita em [Vila Dom Pedro II Número 522](endereco)
+    - O endereço é na [Jardim Belém Número 674](endereco).
+    - Meu endereço é [Centro Número 8](endereco).
+    - Meu endereço é [Cidade Satélite Íris Número 737](endereco)
+    - A entrega deve ser no [Jardim Japão Número 989](endereco).
+    - o endereço de entrega é: [Parque Residencial Paineiras Número 38](endereco)
+    - oks, vocês podem fazer a entrega aqui na [Taquaral Número 99](endereco)
+    - tá certo, vcs trazem aqui no [Jardim Antártica Número 481](endereco)
+    - O endereço de entrega é [Tremembé Número 0](endereco).
+    - O endereço é [Jardim Maria Estela Número 286](endereco).
+    - endereço de entrega: [Vila Bela Vista (Zona Norte) Número 804](endereco)
+    - Claro, [Jardim Martinelli (Sousas) Número 534](endereco)
+    - podem entregar na [Jardim Itapemirim Número 2](endereco)
+    - É no endereço [Jardim Martinelli (Sousas) Número 345](endereco).
+    - O endereço de entrega é  [Vila Conceição Número 413](endereco)
+    - sem problemas. Gostaria que a entrega fosse no [Jardim Shangri-Lá Número 389](endereco)
+    - correto!!!! será entrega no [Jardim Irapiranga Número 7](endereco)
+    - ok entregue no endereço: [Jardim Guedala Número 20](endereco)
+    - É [Parque Rural Fazenda Santa Cândida Número 407](endereco).
+    - Perfeito! Meu endereço é [Parque Boa Vista Número 588](endereco)
+    - pode entregar em: [Jardim Campo Belo Número 854](endereco)
+    - O endereço é: [Vila Congonhas Número 870](endereco)
+    - sem problemas o meu endereço é: [Vila Ana Rosa Número 757](endereco)
+    - [Bonfim Número 958](endereco)
+    - [Vila Bonfim Número 508](endereco), por favor
+    - OK. Meu endereço é [Vila Baruel Número 877](endereco)
+    - A entrega é no [Loteamento Empresarial Bauru Número 542](endereco)
+    - É pra entregar no [Vila Rocha Número 363](endereco).
+    - É no [Vila Santa Izabel Número 99](endereco).
+    - Entrega, endereço: [Vila Sapopemba Número 428](endereco)
+    - tá bom. vocês fazem entregas aqui no [Vila Santa Tereza Número 135](endereco)
+    - Pode enviar para [Residencial Cittá di Salerno Número 30](endereco)
+    - é pra ser entregue na [Jardim Novo Campos Elíseos Número 28](endereco)
+    - sem problemas. podes fazer a entrega na [Parque Boturussu Número 289](endereco)
+    - ótimo, o logradouro para entrega é [Jardim Indaiá Número 442](endereco)
+    - o endereçopara entrega é [Brás Número 777](endereco)
+    - moro no [Novo Taquaral Número 579](endereco)
+    - Meu endereço é [Jardim Nossa Senhora Auxiliadora Número 70](endereco).
+    - O endereço é [Parque Boa Esperança Número 869](endereco).
+    - É na [Interlagos Número 296](endereco).
+
+- intent: informa_pagamento
+  examples: |
+    - Quero pagar por [pix]{"entity":"via_pagamento", "value":"pix"}.
+    - Gostaria de pagar com [PIX]{"entity":"via_pagamento", "value":"pix"}
+    - Será em [pix]{"entity":"via_pagamento", "value":"pix"}
+    - É pagamento no [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}.
+    - Vocês aceitam [cartão]{"entity":"via_pagamento", "value":"cartao"}? 
+    - eu prefiro pagar via [pix]{"entity":"via_pagamento", "value":"pix"}
+    - Gostaria de pagar em [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}
+    - É pagamento em [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}.
+    - Gostaria de pagamento em [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}
+    - Quero pagar via [PIX]{"entity":"via_pagamento", "value":"pix"}
+    - Vocês aceitam [pix]{"entity":"via_pagamento", "value":"pix"}
+    - [PIX]{"entity":"via_pagamento", "value":"pix"}
+    - vou pagar em [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"} de papel
+    - vou pagar com [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}, tá ?
+    - Quero pagar com [cartao]{"entity":"via_pagamento", "value":"cartao"}.
+    - eu vou pagar com meu [cartão]{"entity":"via_pagamento", "value":"cartao"}
+    - eu vou pagar com [PIX]{"entity":"via_pagamento", "value":"pix"}
+    - Ok! Quero pagar com [cartão]{"entity":"via_pagamento", "value":"cartao"}
+    - Com [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}
+    - quero pagar com meu [cartão de credito]{"entity":"via_pagamento", "value":"cartao"}
+    - tem [pix]{"entity":"via_pagamento", "value":"pix"}?
+    - Eu irei pagar em [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}.
+    - por [PIX]{"entity":"via_pagamento", "value":"pix"} é mais fácil pra mim
+    - pagamento via [cartão de debito]{"entity":"via_pagamento", "value":"cartao"}
+    - O pagamento vai ser em [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"}
+    - eu vou pagar usando o [cartao de credito]{"entity":"via_pagamento", "value":"cartao"}
+    - vou pagar via [pix]{"entity":"via_pagamento", "value":"pix"}
+    - Sim, pagar com [dinheiro]{"entity":"via_pagamento", "value":"dinheiro"} por favor
+
+- intent: cumprimenta
+  examples: |
+    - boa noite
+    - bom dia!
+    - Olá, tudo bem? Boa tarde
+    - Olá boa tarde
+    - oi, boa noite! blza ?
+    - Olá, boa tarde!
+    - olá, boa noite
+    - Oiiiii
+    - Bom dia! Tudo bem? 
+    - oie
+    - Olá!
+    - OI, bom dia
+    - Olá boa noite!
+    - hey
+    - Oi, boa tarde, tudo bom?
+    - oi meu amigo
+    - Opa
+
+- intent: sem_troco
+  examples: |
+    - não, já tá trocado
+    - Não, valeu.
+    - Sem troco
+    - Não precisa de troco
+    - Não precisa de troco não.
+    - Não será necessário troco. Obrigada!
+    - Não precisa de troco não
+
+- intent: confirmar
+  examples: |
+    - ta pago
+    - Prontinho. O pix foi realizado.
+    - Feito :)
+    - Ok. Acabei de realizar o pagamento.
+    - pronto!
+    - acabei de efetuar o pix
+    - pix foi feito com sucesso
+    - Pix realizado
+    - PIX feito, fico no aguardo :D 
+    - Ok. Fiz o pagamento aqui.
+    - Acabei de realizar o pagamento.
+    - pix feito
+    - to fazendo já nesse momento.
+    - acabei de fazer aqui o pix, confere aí se chegou 
+    - blz, já fiz o pix
+    - Pix realizado.
+    - pix foi efetuado com sucesso
+    - PIX foi enviado. Obrigado!
     - É isto mesmo. :)
     - Isso mesmo, confirmado !
     - Isso mesmo!
@@ -210,149 +332,6 @@ nlu:
     - é isso
     - Sim, exatamente
     - Isso mesmo! Os itens estão corretos sim.
-
-- intent: informa_endereco
-  examples: |
-    - Perfeito. Meu endereço é {endereco}
-    - A entrega é pra ser feita em {endereco}
-    - O endereço é na {endereco}.
-    - Meu endereço é {endereco}.
-    - Meu endereço é {endereco}
-    - A entrega deve ser no {endereco}.
-    - o endereço de entrega é: {endereco}
-    - oks, vocês podem fazer a entrega aqui na {endereco}
-    - tá certo, vcs trazem aqui no {endereco}
-    - O endereço de entrega é {endereco}.
-    - O endereço é {endereco}.
-    - endereço de entrega: {endereco}
-    - Claro, {endereco}
-    - podem entregar na {endereco}
-    - É no endereço {endereco}.
-    - O endereço de entrega é  {endereco}
-    - sem problemas. Gostaria que a entrega fosse no {endereco}
-    - correto!!!! será entrega no {endereco}
-    - ok entregue no endereço: {endereco}
-    - É {endereco}.
-    - Perfeito! Meu endereço é {endereco}
-    - pode entregar em: {endereco}
-    - O endereço é: {endereco}
-    - sem problemas o meu endereço é: {endereco}
-    - {endereco}
-    - {endereco}, por favor
-    - OK. Meu endereço é {endereco}
-    - A entrega é no {endereco}
-    - É pra entregar no {endereco}.
-    - É no {endereco}.
-    - Entrega, endereço: {endereco}
-    - tá bom. vocês fazem entregas aqui no {endereco}
-    - Pode enviar para {endereco}
-    - é pra ser entregue na {endereco}
-    - sem problemas. podes fazer a entrega na {endereco}
-    - ótimo, o logradouro para entrega é {endereco}
-    - o endereçopara entrega é {endereco}
-    - moro no {endereco}
-    - Meu endereço é {endereco}.
-    - O endereço é {endereco}.
-    - É na {endereco}.
-
-- intent: informa_pagamento
-  examples: |
-    - {via_pagamento}
-    - vou pagar em {via_pagamento} de papel
-    - vou pagar com {via_pagamento}, tá ?
-    - Quero pagar com {via_pagamento}.
-    - eu vou pagar com meu {via_pagamento}
-    - eu vou pagar com {via_pagamento}
-    - Ok! Quero pagar com {via_pagamento}
-    - Com {via_pagamento}
-    - quero pagar com meu {via_pagamento}
-    - tem {via_pagamento}?
-    - Eu irei pagar em {via_pagamento}.
-    - por {via_pagamento} é mais fácil pra mim
-    - pagamento via {via_pagamento}
-    - O pagamento vai ser em {via_pagamento}
-    - eu vou pagar usando o {via_pagamento}
-    - vou pagar via {via_pagamento}
-    - Sim, pagar com {via_pagamento} por favor
-    - Eu irei pagar via {via_pagamento}.
-    - eu vou pagar no {via_pagamento}
-    - Irei pagar por {via_pagamento}.
-    - eu vou pagar usando meu {via_pagamento}
-    - prefiro pagar com o {via_pagamento}
-    - vou pagar com meu {via_pagamento}
-    - combinado! pagamento será {via_pagamento}, ok?
-    - Será pagamento em {via_pagamento}.
-    - Desejo pagar com {via_pagamento}.
-    - Ok, quero pagar com {via_pagamento}
-    - eu vou pagar com {via_pagamento} físico mesmo
-    - vou pagar no {via_pagamento} mesmo
-    - Eu gostaria de pagar com {via_pagamento}.
-    - Ok. Eu vou pagar com {via_pagamento}.
-    - Gostaria de pagamento em {via_pagamento}
-    - Quero pagar por {via_pagamento}.
-    - Gostaria de pagar com {via_pagamento}
-    - Será em {via_pagamento}
-    - É pagamento no {via_pagamento}.
-    - Vocês aceitam {via_pagamento}? 
-    - eu prefiro pagar via {via_pagamento}
-    - Gostaria de pagar em {via_pagamento}
-    - É pagamento em {via_pagamento}.
-    - Gostaria de pagamento em {via_pagamento}
-    - Quero pagar via {via_pagamento}
-    - Vocês aceitam {via_pagamento}
-
-- intent: confirma_pix
-  examples: |
-    - Prontinho. O pix foi realizado.
-    - Feito :)
-    - Ok. Acabei de realizar o pagamento.
-    - pronto!
-    - acabei de efetuar o pix
-    - pix foi feito com sucesso
-    - Pix realizado
-    - PIX feito, fico no aguardo :D 
-    - Ok. Fiz o pagamento aqui.
-    - Acabei de realizar o pagamento.
-    - pix feito
-    - to fazendo já nesse momento.
-    - acabei de fazer aqui o pix, confere aí se chegou 
-    - blz, já fiz o pix
-    - Pix realizado.
-    - pix foi efetuado com sucesso
-    - PIX foi enviado. Obrigado!
-
-- intent: cumprimenta
-  examples: |
-    - boa noite
-    - bom dia!
-    - Olá, tudo bem? Boa tarde
-    - Olá boa tarde
-    - oi, boa noite! blza ?
-    - Olá, boa tarde!
-    - olá, boa noite
-    - Oiiiii
-    - Bom dia! Tudo bem? 
-    - oie
-    - Olá!
-    - OI, bom dia
-    - Olá boa noite!
-    - hey
-    - Oi, boa tarde, tudo bom?
-    - oi meu amigo
-    - Opa
-
-- intent: sem_troco
-  examples: |
-    - não, já tá trocado
-    - Não, valeu.
-    - Sem troco
-    - Não precisa de troco
-    - Não precisa de troco não.
-    - Não será necessário troco. Obrigada!
-    - Não precisa de troco não
-
-- intent: confirmar
-  examples: |
     - Pode ser.
     - Beleza
     - tá tudo certo. é isso aí
@@ -377,29 +356,29 @@ nlu:
     - Tudo bem.
     - Isso mesmo
 
-- intent: agradecimento
-  examples: |
-    - Muito obrigado.
-    - Eu quem agradeço! Até mais!
-    - Eu quem agradeço!
-    - Grato
-    - Muito obrigada!
-    - Perfeito, muito obrigada!! :)
-    - Muito obrigado!
-    - Ok, muito obrigado!
-    - Blz ! Fico no aguardo, obrigada
-    - magina
-    - Obrigada.
-    - Tá ok.
-    - Eu que agradeço, abraços!
-    - Só isso, obrigado!
-    - Obrigado,  ficarei aguardando
-    - Obrigado.
-    - Blz, muito obrigada !
-    - obrigado
-    - Obrigado!
-    - Ok. Muito obrigada!
-    - Ok, muito obrigada!
+# - intent: agradecimento
+#   examples: |
+#     - Muito obrigado.
+#     - Eu quem agradeço! Até mais!
+#     - Eu quem agradeço!
+#     - Grato
+#     - Muito obrigada!
+#     - Perfeito, muito obrigada!! :)
+#     - Muito obrigado!
+#     - Ok, muito obrigado!
+#     - Blz ! Fico no aguardo, obrigada
+#     - magina
+#     - Obrigada.
+#     - Tá ok.
+#     - Eu que agradeço, abraços!
+#     - Só isso, obrigado!
+#     - Obrigado,  ficarei aguardando
+#     - Obrigado.
+#     - Blz, muito obrigada !
+#     - obrigado
+#     - Obrigado!
+#     - Ok. Muito obrigada!
+#     - Ok, muito obrigada!
 
 - intent: pergunta_sabor
   examples: |

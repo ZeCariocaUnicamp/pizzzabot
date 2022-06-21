@@ -236,57 +236,57 @@ responses:
            Ótimo, confirmando: {itens}
        - text: |
            Confirmando o pedido, é {itens}. Certo?
-   utter_confirma_alteracao:
-       - text: |
-           pode me falar os novos itens
-       - text: |
-           Claro, o que seria?
-       - text: |
-           sem problemas, é só falar
-       - text: |
-           Pode sim. Fique à vontade para modificar o pedido.
-       - text: |
-           Pode. Fique à vontade para alterar o pedido.
-       - text: |
-           Quais seriam os novos itens do pedido ?
-       - text: |
-           pode sim, pode alterar o que desejar
-       - text: |
-           Podemos alterar, quais os sabores? 
-       - text: |
-           Fique à vontade para alterar.
-       - text: |
-           claro, e qual é a alteração ?
-       - text: |
-           Sim, fique a vontade para adicionar itens
-       - text: |
-           Pode sim. Qual alteração deseja?
-       - text: |
-           Fique à vontade para realizar a alteração.
-       - text: |
-           Claro! 
-       - text: |
-           claro, você pode adicionar ou alterar o que desejar
-       - text: |
-           Qual é o item que gostaria de adicionar ?
-       - text: |
-           Pode alterar o pedido à vontade.
-       - text: |
-           Claro, qual seria a alteração?
-       - text: |
-           pode me falar
-       - text: |
-           O que quer adicionar?
-       - text: |
-           pode adicionar sim
-       - text: |
-           Ok. Como desejo o pedido então?
-       - text: |
-           Pode alterar sim.
-       - text: |
-           sim, podes falar
-       - text: |
-           Pode sim, o que gostaria de adicionar?
+#    utter_confirma_alteracao:
+#        - text: |
+#            pode me falar os novos itens
+#        - text: |
+#            Claro, o que seria?
+#        - text: |
+#            sem problemas, é só falar
+#        - text: |
+#            Pode sim. Fique à vontade para modificar o pedido.
+#        - text: |
+#            Pode. Fique à vontade para alterar o pedido.
+#        - text: |
+#            Quais seriam os novos itens do pedido ?
+#        - text: |
+#            pode sim, pode alterar o que desejar
+#        - text: |
+#            Podemos alterar, quais os sabores? 
+#        - text: |
+#            Fique à vontade para alterar.
+#        - text: |
+#            claro, e qual é a alteração ?
+#        - text: |
+#            Sim, fique a vontade para adicionar itens
+#        - text: |
+#            Pode sim. Qual alteração deseja?
+#        - text: |
+#            Fique à vontade para realizar a alteração.
+#        - text: |
+#            Claro! 
+#        - text: |
+#            claro, você pode adicionar ou alterar o que desejar
+#        - text: |
+#            Qual é o item que gostaria de adicionar ?
+#        - text: |
+#            Pode alterar o pedido à vontade.
+#        - text: |
+#            Claro, qual seria a alteração?
+#        - text: |
+#            pode me falar
+#        - text: |
+#            O que quer adicionar?
+#        - text: |
+#            pode adicionar sim
+#        - text: |
+#            Ok. Como desejo o pedido então?
+#        - text: |
+#            Pode alterar sim.
+#        - text: |
+#            sim, podes falar
+#        - text: |
+#            Pode sim, o que gostaria de adicionar?
    utter_informa_valor:
        - text: |
            O pedido irá ficar em {valor}.
@@ -670,15 +670,6 @@ responses:
            vai precisar de troco ?
        - text: |
            Será necessário troco?
-   utter_agradecimento:
-       - text: |
-           Obrigada você! 
-       - text: |
-           Até mais
-       - text: |
-           eu que agradeço
-       - text: |
-           eu que agradeço! volte sempre!
    utter_resposta_sabor:
        - text: |
            Bom dia. Os sabores são calabresa, peperoni, mussarela e frango

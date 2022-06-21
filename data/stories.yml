@@ -1,43 +1,55 @@
 version: "3.1"
 
 stories:
- - story: story_1
+ - story: sabor pizza
+   steps:
+   - intent: pergunta_sabor
+   - action: utter_resposta_sabor
+
+ - story: cumprimenta cliente
+   steps:
+   - intent: cumprimenta
+   - action: utter_como_ajudar
+
+ - story: pergunta se pode fazer pedido
    steps:
    - intent: fazer_pedido
    - action: utter_pergunta_pedido
+
+ - story: informa o pedido
+   steps:
    - intent: informa_pedido
    - action: utter_confirma_pedido
-   - intent: confirma_itens
-   - action: utter_informa_valor
    - intent: confirmar
    - action: utter_pergunta_endereco
    - intent: informa_endereco
+   - action: utter_informa_valor
+   - intent: confirmar
    - action: utter_pergunta_pagamento
+
+ - story: pagamento_dinheiro
+   steps:
    - intent: informa_pagamento
+   - slot_was_set:
+     - via_pagamento: dinheiro
+   - action: utter_pergunta_precisa_troco
+   - or:
+     - intent: informa_troco
+     - intent: sem_troco
    - action: utter_informa_tempo
 
- - story: story_2
+ - story: pagamento_pix
    steps:
-   - intent: fazer_pedido
-   - action: utter_pergunta_pedido
-   - intent: informa_pedido
-   - action: utter_confirma_pedido
-   - intent: confirma_itens
-   - action: utter_informa_valor
-   - intent: informa_endereco
-   - action: utter_pergunta_pagamento
    - intent: informa_pagamento
+   - slot_was_set:
+     - via_pagamento: pix
+   - action: utter_informa_pix
+   - intent: confirmar
    - action: utter_informa_tempo
 
- - story: story_3
+ - story: pagamento_cartao
    steps:
-   - intent: fazer_pedido
-   - action: utter_pergunta_pedido
-   - intent: informa_pedido
-   - action: utter_confirma_pedido
-   - intent: confirma_itens
-   - action: utter_informa_valor
    - intent: informa_pagamento
-   - action: utter_pergunta_endereco
-   - intent: informa_endereco
+   - slot_was_set:
+     - via_pagamento: cartao
    - action: utter_informa_tempo

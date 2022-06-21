@@ -1,0 +1,85 @@
+stories:
+- story: Cumprimento e pagamento pix
+  steps:
+  - user: |
+      oi boa tarde!
+    intent: cumprimenta
+  - action: utter_como_ajudar
+  - user: |
+     eu quero uma pizza, por favor.
+    intent: fazer_pedido
+  - action: utter_pergunta_pedido
+  - user: |
+      Uma pizza de [calabres]{"entity": "itens"}
+    intent: informa_pedido
+  - action: utter_confirma_pedido
+  - user: |
+      Certinho!
+    intent: confirmar
+  - action: utter_pergunta_endereco
+  - user: |
+      moro na [Lagoa Nova Braz Numero 15]{"entity":"endereco"}
+    intent: informa_endereco
+  - action: utter_informa_valor
+  - user: |
+      beleza, vou pagar com [pix]{"entity":"via_pagamento"}.
+    intent: informa_pagamento
+  - action: utter_informa_pix
+  - user: |
+      paguei!
+    intent: confirmar
+  - action: utter_informa_tempo
+
+- story: pede pizza direto e pagamento dinheiro
+  steps:
+  - user: |
+      oi, quero uma pizza de [peperoni]{"entity":"itens"}, por favor.
+    intent: informa_pedido
+  - action: utter_confirma_pedido
+  - user: |
+      Isso mesmo.
+    intent: confirmar
+  - action: utter_pergunta_endereco
+  - user: |
+      entrega em [Parque Lage Numero 123]{"entity":"endereco"}
+    intent: informa_endereco
+  - action: utter_informa_valor
+  - user: |
+      okay, pode mandar
+    intent: confirmar
+  - action: utter_pergunta_pagamento
+  - user: |
+      vou pagar com [dinheiro]{"entity": "via_pagamento"}
+    intent: informa_pagamento
+  - action: utter_pergunta_precisa_troco
+  - user: |
+      precisa não!
+    intent: sem_troco
+  - action: utter_informa_tempo
+
+- story: pergunta sabores e pagamento cartao
+  steps:
+  - user: |
+      quais sabores voces tem?
+    intent: pergunta_sabor
+  - action: utter_resposta_sabor
+  - user: |
+      vou querer de [frango]{"entity":"itens"}.
+    intent: informa_pedido
+  - action: utter_confirma_pedido
+  - user: |
+      ta certo
+    intent: confirmar
+  - action: utter_pergunta_endereco
+  - user: |
+      [Peninsula do Xio Peng Numero 387]{"entity":"endereco"}
+    intent: informa_endereco
+  - action: utter_informa_valor
+  - user: |
+      certo, isso mesmo
+    intent: confirmar
+  - action: utter_pergunta_pagamento
+  - user: |
+      vou pagar com [cartao de crédito]{"entity": "via_pagamento"}
+    intent: informa_pagamento
+  - action: utter_informa_tempo
