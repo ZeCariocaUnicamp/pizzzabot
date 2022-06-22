@@ -15,6 +15,7 @@ entities:
   - itens
   - via_pagamento
   - endereco
+  - valor
 
 slots:
   itens:

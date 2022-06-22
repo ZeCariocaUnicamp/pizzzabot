@@ -1,21 +1,6 @@
 version: "3.1"
 
 stories:
- - story: sabor pizza
-   steps:
-   - intent: pergunta_sabor
-   - action: utter_resposta_sabor
-
- - story: cumprimenta cliente
-   steps:
-   - intent: cumprimenta
-   - action: utter_como_ajudar
-
- - story: pergunta se pode fazer pedido
-   steps:
-   - intent: fazer_pedido
-   - action: utter_pergunta_pedido
-
  - story: informa o pedido
    steps:
    - intent: informa_pedido
@@ -30,6 +15,8 @@ stories:
  - story: pagamento_dinheiro
    steps:
    - intent: informa_pagamento
+     entities:
+     - via_pagamento
    - slot_was_set:
      - via_pagamento: dinheiro
    - action: utter_pergunta_precisa_troco
@@ -41,6 +28,8 @@ stories:
  - story: pagamento_pix
    steps:
    - intent: informa_pagamento
+     entities:
+     - via_pagamento
    - slot_was_set:
      - via_pagamento: pix
    - action: utter_informa_pix
@@ -50,6 +39,8 @@ stories:
  - story: pagamento_cartao
    steps:
    - intent: informa_pagamento
+     entities:
+     - via_pagamento
    - slot_was_set:
      - via_pagamento: cartao
    - action: utter_informa_tempo

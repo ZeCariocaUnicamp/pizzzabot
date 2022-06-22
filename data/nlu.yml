@@ -260,7 +260,6 @@ nlu:
 
 - intent: confirmar
   examples: |
-    - ta pago
     - Prontinho. O pix foi realizado.
     - Feito :)
     - Ok. Acabei de realizar o pagamento.

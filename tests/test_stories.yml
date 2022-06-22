@@ -26,7 +26,7 @@ stories:
     intent: informa_pagamento
   - action: utter_informa_pix
   - user: |
-      paguei!
+      pagamento efetuado!
     intent: confirmar
   - action: utter_informa_tempo
 
@@ -72,7 +72,7 @@ stories:
     intent: confirmar
   - action: utter_pergunta_endereco
   - user: |
-      [Peninsula do Xio Peng Numero 387]{"entity":"endereco"}
+      [Peninsula Santa Cruz Numero 387]{"entity":"endereco"}
     intent: informa_endereco
   - action: utter_informa_valor
   - user: |
@@ -82,4 +82,31 @@ stories:
   - user: |
       vou pagar com [cartao de crédito]{"entity": "via_pagamento"}
     intent: informa_pagamento
+  - action: utter_informa_tempo
+
+- story: historia do meuphisto
+  steps:
+  - user: |
+      Olá. Quero fazer um pedido
+    intent: fazer_pedido
+  - action: utter_pergunta_pedido
+  - user: |
+      uma pizza de [Marguerita](itens)
+    intent: informa_pedido
+  - action: utter_confirma_pedido
+  - user: |
+      os itens estão corretos
+    intent: confirmar
+  - action: utter_pergunta_endereco
+  - user: |
+      endereço de entrega: [Jardim Rubio Número 885](endereco)
+    intent: informa_endereco
+  - action: utter_informa_valor
+  - user: |
+      okay, vou pagar com [pix](via_pagamento)
+    intent: informa_pagamento
+  - action: utter_informa_pix
+  - user: |
+      pix foi efetuado com sucesso
+    intent: confirmar
   - action: utter_informa_tempo
